@@ -1,0 +1,342 @@
+.InteractiveQuestion-public-style {
+    .banner {
+        position: relative;
+        height: 33.33rem;
+
+        .banner-bg {
+            background: url(../../assets/images/someBannerImages/a-q-banner.png) no-repeat;
+        }
+
+        .banner-out {
+            overflow: hidden;
+            padding-left: 6.58rem;
+            position: relative;
+            padding-top: 8.58rem;
+            height: 100%;
+
+            .banner-in-title {
+                span {
+                    font-size: 5rem;
+                    font-family: PingFang SC;
+                    font-weight: bold;
+                    color: white; //#1D8CF3
+                    display: block;
+                }
+
+            }
+
+            .banner-msg-widow {
+                position: absolute;
+                top: 1.67rem;
+                right: 0;
+                width: 35rem;
+                height: 30rem;
+                background: #FFFFFF;
+                border-radius: 1rem;
+                padding: 1.5rem 2rem 2.17rem 1.83rem;
+
+                .head-cont {
+                    margin-bottom: 1.33rem;
+
+                    img {
+                        height: 4rem;
+                        width: 4rem;
+                    }
+
+                    span {
+
+                        font-size: 1.67rem;
+                        font-family: PingFang SC;
+                        font-weight: bold;
+                        color: #666666;
+                        line-height: 4rem;
+                        margin-left: 1.25rem;
+                    }
+                }
+
+                .text-area {
+                    width: 31.17rem;
+                    height: 9.72rem;
+                    background: #F5F5F5;
+                }
+
+                .code-all-s {
+                    display: flex;
+                    margin-top: 1rem;
+                    align-items: center;
+
+                    .input-style {
+                        width: 17.42rem;
+                        height: 3.17rem;
+                    }
+
+                    .get-code-style {
+                        width: 8.75rem;
+                        height: 3.17rem;
+                        background: #FFFFFF;
+                        border: 1px solid #ECECEC;
+                        border-radius: 0.2rem;
+                        margin-left: 1rem;
+                        text-align: center;
+                        line-height: 2.77rem;
+                        font-size: 2rem;
+                    }
+
+                    img {
+                        width: 1.92rem;
+                        height: 1.67rem;
+                        margin-left: 0.5rem;
+
+                        // background-color: red;
+                    }
+                }
+
+                .tip {
+                    font-size: 1.17rem;
+                    font-family: PingFang SC;
+                    font-weight: 500;
+                    color: #EA3201;
+                    margin: 0.75rem 0 1.5rem;
+                }
+
+                .question-btn {
+                    width: 31.17rem;
+                    height: 4rem;
+                    background: #0171EA;
+                    border-radius: 1rem;
+                    font-size: 1.67rem;
+                    font-family: PingFang SC;
+                    font-weight: 500;
+                    color: #FFFFFF;
+                    text-align: center;
+                    line-height: 4rem;
+                    position: absolute;
+                    left: 1.83rem;
+                    bottom: 2.17rem;
+                }
+            }
+        }
+
+        .code {
+            width: 400px;
+            // margin: 0 auto;
+            margin-left: 200px;
+            ;
+        }
+
+        .input-val {
+            width: 295px;
+            background: #ffffff;
+            height: 2.8rem;
+            padding: 0 2%;
+            border-radius: 5px;
+            border: none;
+            border: 1px solid rgba(0, 0, 0, .2);
+            font-size: 1.0625rem;
+        }
+
+        // #canvas {
+        //     float: right;
+        //     display: inline-block;
+        //     border: 1px solid #ccc;
+        //     border-radius: 5px;
+        //     cursor: pointer;
+        // }
+
+        .btn {
+            width: 100px;
+            height: 40px;
+            background: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 20px auto 0;
+            display: block;
+            font-size: 1.2rem;
+            color: #e22e1c;
+            cursor: pointer;
+        }
+    }
+
+    .InteractiveQuestion-content {
+        padding: 1.09rem 0;
+
+        .content-main {
+            .tab-head {
+                position: relative;
+
+                .tab-style {
+                    font-size: 1.33rem;
+                    font-family: PingFang SC;
+                    font-weight: 500;
+                    color: #333333;
+                }
+
+                .search-tab {
+                    width: 24.17rem;
+                    height: 3.33rem;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+
+            .usuallyQuestion-style {
+                margin-top: 3.33rem;
+
+                .it-style {
+                    display: flex;
+                    // width: 23.33rem;
+                    height: 31.08rem;
+                    border-radius: 1rem;
+                    padding: 2.5rem 2rem;
+                    margin-bottom: 2.25rem;
+                    position: relative;
+                    border: 1px sol #cacdd1;
+                    overflow: hidden;
+
+                    .name-style {
+                        font-size: 3rem;
+                        font-family: PingFang SC;
+                        font-weight: bold;
+                        color: #FFFFFF;
+                        text-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.1);
+                        height: 100%;
+                        width: 100%;
+                        line-height: 31.08rem;
+                        text-align: center;
+                        overflow: hidden;
+                    }
+
+                    .hover-out {
+                        display: none;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        padding: 2.5rem 2rem;
+                        overflow: hidden;
+
+                        .title-hover {
+                            margin-bottom: 1.58rem;
+                            font-size: 1.67rem;
+                            font-family: PingFang SC;
+                            font-weight: bold;
+                            color: #FFFFFF;
+                            text-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.1);
+                        }
+
+                        .hover-content {
+                            font-size: 1.33rem;
+                            font-family: PingFang SC;
+                            font-weight: 500;
+                            color: #CCCCCC;
+                            overflow: hidden;
+                            line-height: 1.33rem
+                        }
+                    }
+
+                    &:hover {
+                        background-color: rgba(27, 27, 27, 0.6);
+                        box-shadow: 0rem 1rem 1rem 0rem rgba(0, 0, 0, 0.1);
+                        // opacity: 0.6;
+                        border-radius: 1rem;
+
+                        .name-style {
+                            display: none;
+                        }
+
+                        .hover-out {
+                            display: block;
+                        }
+                    }
+                }
+
+            }
+
+            .askQuestion-style {
+                margin-top: 3.33rem;
+
+                .question {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 2.33rem;
+
+                    .question-info {
+                        width: 78%;
+
+                        .question-content {
+                            margin-left: 1.117rem;
+                            font-size: 1.33rem;
+                            font-family: PingFang SC;
+                            font-weight: 500;
+                            color: #333333;
+                            line-height: 3rem;
+                        }
+
+                    }
+
+
+                }
+
+                .asks {
+                    padding: 3rem 2.5rem 3.25rem 3rem;
+                    background: #FAFAFA;
+                    border-radius: 1rem;
+
+                    .head-asks {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 1.42rem;
+                    }
+
+                    .answer-content {
+                        font-size: 1.33rem;
+                        font-family: PingFang SC;
+                        font-weight: 500;
+                        color: #333333;
+                    }
+                }
+
+                .time {
+                    width: 13.42rem;
+                    font-size: 1.33rem;
+                    font-family: PingFang SC;
+                    font-weight: 500;
+                    color: #999999;
+                    line-height: 3rem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                }
+
+                .img {
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+
+
+        }
+
+        .more-data {
+            width: 100%;
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            margin-top: 3rem;
+
+            img {
+                display: block;
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+
+        // .two-content {
+        //     margin-top: 15.33rem;
+        // }
+    }
+}

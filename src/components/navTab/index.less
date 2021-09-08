@@ -1,0 +1,131 @@
+.nav-head {
+    .navbar-expand-lg {
+        flex-flow: wrap
+    }
+
+    .navbar-brand {}
+
+    .navbar {
+        padding: 2rem 0 0;
+        background: url(../../assets/images/someBannerImages/head-bg.png) no-repeat;
+        position: static !important;
+
+        .head-img {
+            position: fixed;
+            z-index: -99;
+            top: 0;
+        }
+
+        //logo
+        .navbar-brand {
+            display: flex;
+            width: 100%;
+            padding: 0 8.2rem;
+            align-items: center;
+            height: 8.33rem;
+
+            .out-logo {
+                width: 10.83rem;
+                cursor: pointer;
+
+                .logo-img {
+                    width: 100%;
+                }
+            }
+
+            .logo-text {
+                // margin-top: 2rem;
+
+                .institution-title {
+                    // width: 30.5rem;
+                    font-size: 2rem;
+                    line-height: 2rem;
+                    font-family: PingFang SC;
+                    font-weight: bold;
+                    color: #166BA2;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .institution-subTile {
+                    width: 15.25rem;
+                    font-size: 1.5rem;
+                    line-height: 1.5rem;
+                    font-family: PingFang SC;
+                    font-weight: 500;
+                    color: #217EC4;
+                    margin-top: 1.08rem;
+
+                }
+            }
+
+            .subscribe-style {
+                // margin-right: 5rem;
+                // margin-top: 3.33rem;
+                margin-left: auto;
+                cursor: pointer;
+
+                .subscribe-img {
+                    vertical-align: middle !important
+                }
+
+                .subscribe-text {
+                    vertical-align: middle;
+                    width: 6.75rem;
+                    font-size: 1.67rem;
+                    font-family: PingFang SC;
+                    font-weight: bold;
+                    color: #0171EA;
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+        .nav-content {
+            width: 100%;
+            background: #0171EA;
+            margin-top: 1.5rem;
+
+            .navbar-collapse {
+                display: flex !important;
+            }
+
+            .navbar-toggler {
+                margin: 15px;
+            }
+
+            .navbar-nav {
+                width: 100%;
+
+                flex-direction: row !important;
+
+                .nav-item {
+                    // width: 16.67rem;
+                    height: 5rem;
+                    text-align: center;
+                    line-height: 5rem;
+                    width: 16.666%;
+                    cursor: pointer;
+
+                    .nav-link {
+                        font-size: 1.67rem;
+                        font-family: PingFang SC;
+                        font-weight: bold;
+                        color: #FFFFFF;
+                        padding: 0;
+                    }
+                }
+
+                .active {
+                    background-color: #0057CD;
+                }
+            }
+        }
+
+        .container {
+            padding: 0;
+        }
+    }
+}

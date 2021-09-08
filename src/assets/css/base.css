@@ -1,0 +1,155 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* html {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    -webkit-filter: grayscale(100%);
+} */
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+	display: block;
+}
+
+@font-face {
+    font-family: tencentFont;
+    src: url('../lib/TTTGB-Medium\ 180130.ttf');
+}
+body {
+	line-height: 0;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+li {
+	list-style: none;
+}
+
+html, body {
+	width: 100%;
+}
+
+.pull-left {
+	float: left
+}
+.pull-right {
+	float: right
+}
+button:disabled {
+	cursor: not-allowed
+}
+.href{
+	color: white;
+}
+.href:hover{
+	color: white;
+}
+.href:active{
+	color: white;
+}
+/* 滚动条定制 */
+::-webkit-scrollbar {
+	width: 4px;
+}
+::-webkit-scrollbar-track {
+	background-color: #F6F8FA;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #CCCCCC;
+	border-radius: 4px;
+}
+::-webkit-scrollbar:horizontal {
+	height: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #aaa;
+	border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:active {
+	background-color: #aaa;
+	border-radius: 4px;
+}
+.bg-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	zoom: 1;
+	background-color: #fff;
+	background-size: cover!important;
+	-webkit-background-size: cover!important;
+	-o-background-size: cover!important;
+	background-position: center 0!important;
+}
+/* 一行显示 后省略。。。 */
+.one-text-omit{
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	white-space: nowrap;
+}
+/* 两行显示 后省略。。。 */
+.two-text-omit{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;            
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+/* 三行显示 后省略。。。 */
+.three-text-omit{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;            
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/* 自动换行 */
+.break-word{
+	word-wrap: break-word;
+    word-break: normal;
+}
+/* 首行缩进两个字符 */
+.text-indent{
+	text-indent:2em
+}
+.video-react .video-react-big-play-button{
+	top: 50%!important;
+	left: 50%!important;
+	margin-left: -1.5em;
+}
